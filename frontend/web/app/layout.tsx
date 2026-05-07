@@ -2,9 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Complex Construction Midland TX | Eliseo - Concrete & Remodeling Services",
-  description: "Complex Construction by Eliseo offers professional construction services in Midland, TX. Specializing in concrete foundations, driveways, patios, home remodeling, and commercial construction. Licensed, insured, and trusted in West Texas. Call for a free quote!",
+  title: "Eliseo Carron - Complex Construction Midland TX | Concrete & Remodeling",
+  description: "Eliseo Carron's Complex Construction offers professional construction services in Midland, TX. Specializing in concrete foundations, driveways, patios, home remodeling, and commercial construction. Licensed, insured, and trusted in West Texas. Call (817) 841-5269 for a free quote!",
   keywords: [
+    "Eliseo Carron",
+    "Eliseo Carron Midland",
+    "Eliseo Carron construction",
+    "Eliseo Carron contractor",
+    "Complex Construction",
     "construction Midland TX",
     "concrete contractor Midland",
     "foundation repair Midland",
@@ -12,8 +17,6 @@ export const metadata: Metadata = {
     "commercial construction Midland",
     "driveway installation Midland",
     "patio construction Midland",
-    "Complex Construction",
-    "Eliseo construction",
     "concrete work Midland",
     "residential construction Midland",
     "West Texas construction",
@@ -21,8 +24,8 @@ export const metadata: Metadata = {
     "Odessa construction",
     "Permian Basin contractor"
   ],
-  authors: [{ name: "Eliseo - Complex Construction" }],
-  creator: "Complex Construction",
+  authors: [{ name: "Eliseo Carron - Complex Construction" }],
+  creator: "Eliseo Carron",
   publisher: "Complex Construction",
   formatDetection: {
     email: false,
@@ -34,10 +37,10 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: "Complex Construction Midland TX | Professional Construction Services",
-    description: "Expert construction services in Midland, TX. Concrete foundations, driveways, remodeling, and commercial projects. Licensed & insured. Free quotes!",
+    title: "Eliseo Carron - Complex Construction Midland TX | Professional Construction",
+    description: "Expert construction services in Midland, TX by Eliseo Carron. Concrete foundations, driveways, remodeling, and commercial projects. Licensed & insured. Free quotes!",
     url: 'https://complex.construction',
-    siteName: 'Complex Construction',
+    siteName: 'Complex Construction - Eliseo Carron',
     locale: 'en_US',
     type: 'website',
     images: [
@@ -45,14 +48,14 @@ export const metadata: Metadata = {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Complex Construction - Midland TX Construction Services',
+        alt: 'Eliseo Carron - Complex Construction Midland TX',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Complex Construction Midland TX | Eliseo",
-    description: "Professional construction services in Midland, TX. Concrete, remodeling, and commercial projects. Call for a free quote!",
+    title: "Eliseo Carron - Complex Construction Midland TX",
+    description: "Professional construction services in Midland, TX by Eliseo Carron. Concrete, remodeling, and commercial projects. Call (817) 841-5269!",
     images: ['/og-image.jpg'],
   },
   robots: {
@@ -134,9 +137,16 @@ export default function RootLayout({
     ],
     founder: {
       '@type': 'Person',
-      name: 'Eliseo',
+      name: 'Eliseo Carron',
+      jobTitle: 'Owner & Contractor',
+      url: 'https://complex.construction',
     },
-    description: 'Professional construction services in Midland, TX. Specializing in concrete foundations, driveways, patios, home remodeling, and commercial construction projects.',
+    employee: {
+      '@type': 'Person',
+      name: 'Eliseo Carron',
+      jobTitle: 'Owner & Lead Contractor',
+    },
+    description: 'Professional construction services in Midland, TX by Eliseo Carron. Specializing in concrete foundations, driveways, patios, home remodeling, and commercial construction projects.',
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: 'Construction Services',

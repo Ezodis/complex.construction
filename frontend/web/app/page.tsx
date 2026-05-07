@@ -29,11 +29,16 @@ export default function Home() {
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
               Complex Construction
             </h1>
-            <p className="text-2xl md:text-3xl mb-4 text-gray-300 font-light">
-              Midland's Trusted Concrete & Construction Experts
-            </p>
+            <div className="mb-6">
+              <p className="text-3xl md:text-5xl font-bold text-orange-400 mb-2">
+                Eliseo Carron
+              </p>
+              <p className="text-xl md:text-2xl text-gray-300 font-light">
+                Midland's Trusted Concrete & Construction Expert
+              </p>
+            </div>
             <p className="text-lg mb-10 text-gray-400 max-w-3xl mx-auto leading-relaxed">
-              Led by Eliseo, we deliver exceptional concrete, remodeling, and commercial construction services throughout Midland, Odessa, and the Permian Basin. Licensed, insured, and committed to quality craftsmanship.
+              Led by Eliseo Carron, we deliver exceptional concrete, remodeling, and commercial construction services throughout Midland, Odessa, and the Permian Basin. Licensed, insured, and committed to quality craftsmanship.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -125,10 +130,10 @@ export default function Home() {
           <div className="text-center mb-16">
             <p className="text-orange-600 font-semibold mb-2 uppercase tracking-wide">Our Portfolio</p>
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
-              Recent Projects in Midland
+              Recent Projects by Eliseo Carron
             </h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-              Take a look at some of the quality construction projects completed by Eliseo and the Complex Construction team throughout the Midland area.
+              Take a look at some of the quality construction projects completed by Eliseo Carron and the Complex Construction team throughout the Midland area.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -226,10 +231,10 @@ export default function Home() {
           <div className="text-center mb-16">
             <p className="text-orange-400 font-semibold mb-2 uppercase tracking-wide">Why Choose Us</p>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              The Complex Construction Difference
+              The Eliseo Carron Difference
             </h2>
             <p className="text-gray-400 text-lg max-w-3xl mx-auto">
-              Eliseo and the Complex Construction team bring years of experience and dedication to every project in Midland, Odessa, and throughout West Texas.
+              Eliseo Carron and the Complex Construction team bring years of experience and dedication to every project in Midland, Odessa, and throughout West Texas.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
@@ -336,7 +341,7 @@ export default function Home() {
                 Request Your Free Quote
               </h2>
               <p className="text-gray-600 text-lg">
-                Ready to start your construction project in Midland or the surrounding area? Contact Eliseo today for a free, no-obligation consultation and quote.
+                Ready to start your construction project in Midland or the surrounding area? Contact Eliseo Carron today for a free, no-obligation consultation and quote.
               </p>
             </div>
             
@@ -462,7 +467,7 @@ export default function Home() {
               <div>
                 <h3 className="text-2xl font-bold mb-4 text-orange-400">Complex Construction</h3>
                 <p className="text-gray-400 mb-4">
-                  Professional construction services by Eliseo, serving Midland, Odessa, and the Permian Basin with quality craftsmanship and reliable service.
+                  Professional construction services by Eliseo Carron, serving Midland, Odessa, and the Permian Basin with quality craftsmanship and reliable service.
                 </p>
                 <p className="text-sm text-gray-500">
                   Licensed & Insured Contractor
