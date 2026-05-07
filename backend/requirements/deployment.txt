@@ -1,0 +1,16 @@
+# Django Backend - Production Deployment Requirements
+
+-r base.txt
+
+# WSGI Server
+gunicorn==23.0.0
+
+# Monitoring & Error Tracking
+sentry-sdk==1.40.0
+
+# Security
+django-csp==3.8
+django-permissions-policy==4.19.0
+
+# Health checks
+django-health-check==3.18.1

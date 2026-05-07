@@ -1,0 +1,12 @@
+# System Packages for Docker Build Stage
+
+# Core build dependencies
+build-essential
+libpq-dev
+curl
+ca-certificates
+
+# Python dependencies
+libffi-dev
+libssl-dev
+python3-dev

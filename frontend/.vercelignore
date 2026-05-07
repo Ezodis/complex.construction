@@ -1,0 +1,5 @@
+mobile
+packages/*/node_modules
+packages/*/.turbo
+web/node_modules
+.git

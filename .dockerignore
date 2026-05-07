@@ -1,0 +1,81 @@
+# VCS
+.git
+.gitignore
+.editorconfig
+.gitattributes
+.github
+.gitlab-ci.yml
+.idea
+.pre-commit-config.yaml
+.readthedocs.yml
+.travis.yml
+.pem
+
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environments
+.env
+.venv/
+venv/
+venv
+env/
+*.egg-info/
+.eggs/
+
+# Node / frontend
+node_modules/
+**/node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+**/.expo/
+**/frontend/mobile/builds/
+# Next.js build cache
+frontend/web/.next/
+frontend/web/out/
+
+# Large mobile build artifacts
+frontend/mobile/**/android/
+frontend/mobile/**/ios/
+frontend/mobile/**/.gradle/
+frontend/mobile/**/build/
+frontend/mobile/**/builds/
+frontend/mobile/**/.expo/
+
+# Docker
+.dockerignore
+.docker/
+Dockerfile
+docker-compose*.yml
+
+# Dev / editor stuff
+*.swp
+*.swo
+*.DS_Store
+.idea/
+.vscode/
+
+# Tests / docs (not needed in prod)
+tests/
+docs/
+
+# Test files in frontend
+frontend/**/__tests__/
+frontend/**/*.test.ts
+frontend/**/*.test.tsx
+frontend/**/*.spec.ts
+frontend/**/*.spec.tsx
+
+# Source maps
+**/*.map
+
+# macOS
+**/.DS_Store

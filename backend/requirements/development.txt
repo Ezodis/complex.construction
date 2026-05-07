@@ -1,0 +1,28 @@
+# Django Backend - Development Requirements
+
+-r base.txt
+
+# Interactive shell
+ipython==8.25.0
+
+# Django dev tools
+django-extensions==3.2.3
+django-debug-toolbar==4.2.0
+
+# Testing
+pytest==8.2.2
+pytest-django==4.8.0
+pytest-cov==4.1.0
+coverage>=6.0,<8.0
+pytest-xdist==3.5.0
+factory-boy==3.3.0
+faker==22.6.0
+
+# Code quality
+black==24.8.0
+flake8==7.0.0
+isort==5.13.2
+pylint==3.0.3
+
+# API testing
+httpie==3.2.2
