@@ -6,13 +6,13 @@ export default function Home() {
         <div className="container mx-auto px-4 py-20">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Complex Construction
+              Complex Construction - Midland, TX
             </h1>
             <p className="text-xl md:text-2xl mb-4 text-gray-300">
               Professional Construction Services by Eliseo
             </p>
             <p className="text-lg mb-10 text-gray-400">
-              Quality craftsmanship, reliable service, and exceptional results for all your construction needs
+              Serving Midland, Odessa, and the Permian Basin with quality concrete, remodeling, and commercial construction services. Licensed, insured, and trusted in West Texas.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -20,7 +20,7 @@ export default function Home() {
                 className="bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-4 rounded-lg transition-colors flex items-center justify-center gap-2"
               >
                 <span className="text-2xl">📞</span>
-                Call Now
+                Call Now - Free Estimate
               </a>
               <a
                 href="#contact"
@@ -36,35 +36,38 @@ export default function Home() {
       {/* Services Section */}
       <section id="services" className="py-20">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
-            Our Services
+          <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">
+            Construction Services in Midland, TX
           </h2>
+          <p className="text-center text-gray-600 mb-12 text-lg max-w-3xl mx-auto">
+            Complex Construction offers comprehensive construction services throughout Midland, Odessa, and West Texas. From residential to commercial projects, we deliver quality results.
+          </p>
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
               <div className="text-orange-600 text-4xl mb-4">🏗️</div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                Foundations & Concrete
+                Concrete & Foundations
               </h3>
               <p className="text-gray-600">
-                Solid concrete foundations for residential and commercial buildings. Expert installation ensuring structural integrity.
+                Expert concrete foundation installation for homes and businesses in Midland. Driveways, patios, slabs, and structural concrete work with guaranteed quality.
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
               <div className="text-orange-600 text-4xl mb-4">🔨</div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                Remodeling & Renovation
+                Home Remodeling
               </h3>
               <p className="text-gray-600">
-                Complete home and commercial remodeling services. Transform your space with quality craftsmanship.
+                Complete home renovation services in Midland, TX. Kitchen remodels, bathroom upgrades, room additions, and full home transformations.
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
               <div className="text-orange-600 text-4xl mb-4">🏢</div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
-                Commercial Projects
+                Commercial Construction
               </h3>
               <p className="text-gray-600">
-                Large-scale commercial construction including offices, retail spaces, and industrial facilities.
+                Large-scale commercial projects in the Permian Basin. Office buildings, retail spaces, warehouses, and industrial construction.
               </p>
             </div>
           </div>
@@ -166,44 +169,47 @@ export default function Home() {
       {/* Why Choose Us Section */}
       <section className="bg-gray-100 py-20">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
-            Why Choose Us
+          <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">
+            Why Choose Complex Construction in Midland?
           </h2>
+          <p className="text-center text-gray-600 mb-12 text-lg max-w-3xl mx-auto">
+            Eliseo and the Complex Construction team bring years of experience serving Midland, Odessa, and West Texas communities.
+          </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
-            <div className="text-center">
+            <div className="text-center bg-white p-6 rounded-lg shadow">
               <div className="text-5xl mb-4">✓</div>
               <h3 className="text-xl font-bold mb-2 text-gray-900">
                 Licensed & Insured
               </h3>
               <p className="text-gray-600">
-                Fully licensed and insured for your peace of mind
+                Fully licensed and insured contractor serving Midland, TX
               </p>
             </div>
-            <div className="text-center">
+            <div className="text-center bg-white p-6 rounded-lg shadow">
               <div className="text-5xl mb-4">⭐</div>
               <h3 className="text-xl font-bold mb-2 text-gray-900">
-                Quality Work
+                Quality Workmanship
               </h3>
               <p className="text-gray-600">
-                Premium materials and expert craftsmanship
+                Premium materials and expert craftsmanship on every project
               </p>
             </div>
-            <div className="text-center">
+            <div className="text-center bg-white p-6 rounded-lg shadow">
               <div className="text-5xl mb-4">💰</div>
               <h3 className="text-xl font-bold mb-2 text-gray-900">
                 Fair Pricing
               </h3>
               <p className="text-gray-600">
-                Competitive rates with transparent quotes
+                Competitive rates with transparent, honest quotes
               </p>
             </div>
-            <div className="text-center">
-              <div className="text-5xl mb-4">🕐</div>
+            <div className="text-center bg-white p-6 rounded-lg shadow">
+              <div className="text-5xl mb-4">📍</div>
               <h3 className="text-xl font-bold mb-2 text-gray-900">
-                On-Time Delivery
+                Local to Midland
               </h3>
               <p className="text-gray-600">
-                Projects completed on schedule
+                Proudly serving the Permian Basin community
               </p>
             </div>
           </div>
@@ -215,10 +221,10 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-6 text-gray-900">
-              Contact Eliseo
+              Contact Complex Construction - Midland, TX
             </h2>
             <p className="text-xl text-gray-600 mb-10 text-center">
-              Ready to start your construction project? Get in touch for a free consultation and quote.
+              Ready to start your construction project in Midland or the surrounding area? Contact Eliseo for a free consultation and quote.
             </p>
             
             <div className="grid md:grid-cols-2 gap-8 mb-10">

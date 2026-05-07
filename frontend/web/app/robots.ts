@@ -6,8 +6,15 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
+        disallow: ['/api/', '/admin/'],
+      },
+      {
+        userAgent: 'Googlebot',
+        allow: '/',
+        disallow: ['/api/', '/admin/'],
       },
     ],
-    sitemap: 'https://yourdomain.com/sitemap.xml',
+    sitemap: 'https://complex.construction/sitemap.xml',
+    host: 'https://complex.construction',
   };
 }
