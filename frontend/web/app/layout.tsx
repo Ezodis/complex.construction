@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Concrete Construction Company - Professional Concrete Services",
-  description: "Quality concrete construction services for residential and commercial projects. Foundations, driveways, patios, and more.",
+  title: "Complex Construction - Professional Construction Services by Eliseo",
+  description: "Quality construction services for residential and commercial projects. Foundations, remodeling, concrete work, and more by Eliseo.",
 };
 
 export default function RootLayout({
