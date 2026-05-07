@@ -2,30 +2,31 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+      <section className="bg-gradient-to-br from-slate-900 to-slate-800 text-white">
         <div className="container mx-auto px-4 py-20">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Building Strong Foundations
+              Complex Construction
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-gray-300">
-              Professional Concrete Construction Services
+            <p className="text-xl md:text-2xl mb-4 text-gray-300">
+              Professional Construction Services by Eliseo
             </p>
             <p className="text-lg mb-10 text-gray-400">
-              Quality craftsmanship, reliable service, and lasting results for residential and commercial projects
+              Quality craftsmanship, reliable service, and exceptional results for all your construction needs
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="tel:+1234567890"
+                className="bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-4 rounded-lg transition-colors flex items-center justify-center gap-2"
+              >
+                <span className="text-2xl">📞</span>
+                Call Now
+              </a>
               <a
                 href="#contact"
                 className="bg-orange-600 hover:bg-orange-700 text-white font-semibold px-8 py-4 rounded-lg transition-colors"
               >
                 Get a Free Quote
-              </a>
-              <a
-                href="#services"
-                className="bg-white hover:bg-gray-100 text-gray-900 font-semibold px-8 py-4 rounded-lg transition-colors"
-              >
-                Our Services
               </a>
             </div>
           </div>
