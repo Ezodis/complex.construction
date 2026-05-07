@@ -1,7 +1,6 @@
 {
   "framework": "nextjs",
-  "rootDirectory": "frontend",
-  "installCommand": "npm install --workspace=web --workspace='packages/*' --include-workspace-root",
+  "rootDirectory": "frontend/web",
   "buildCommand": "npm run build",
-  "outputDirectory": "web/.next"
+  "outputDirectory": ".next"
 }
