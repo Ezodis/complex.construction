@@ -9,7 +9,7 @@ export default function Home() {
               <span>📍 Serving Midland, Odessa & Permian Basin</span>
             </div>
             <div className="flex items-center gap-4">
-              <span>✉️ eliseo@complex.construction</span>
+              <span>✉️ EC71061@email.com</span>
               <span className="hidden sm:inline">|</span>
               <a href="tel:8178415269" className="font-bold hover:underline">
                 📞 (817) 841-5269
@@ -23,6 +23,7 @@ export default function Home() {
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto text-center">
+            <img src="/logo.svg" alt="Complex Construction Logo" className="w-40 h-40 mx-auto mb-6" />
             <p className="text-orange-400 font-semibold mb-4 text-lg uppercase tracking-wide">
               Professional Construction Services
             </p>
@@ -334,125 +335,86 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
               <p className="text-orange-600 font-semibold mb-2 uppercase tracking-wide">Get In Touch</p>
               <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
-                Request Your Free Quote
+                Contact Complex Construction
               </h2>
               <p className="text-gray-600 text-lg">
-                Ready to start your construction project in Midland or the surrounding area? Contact Eliseo Carron today for a free, no-obligation consultation and quote.
+                Ready to start your construction project in Midland? Contact Eliseo Carron today for a free, no-obligation consultation and quote.
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-gradient-to-br from-slate-900 to-slate-800 text-white p-10 rounded-xl shadow-xl">
-                <h3 className="text-2xl font-bold mb-8">Contact Information</h3>
-                <div className="space-y-6">
+            <div className="max-w-3xl mx-auto">
+              <div className="bg-gradient-to-br from-slate-900 to-slate-800 text-white p-12 rounded-xl shadow-2xl">
+                <div className="text-center mb-10">
+                  <img src="/logo.svg" alt="Complex Construction Logo" className="w-32 h-32 mx-auto mb-6" />
+                  <h3 className="text-3xl font-bold mb-2">Complex Construction</h3>
+                  <p className="text-xl text-orange-400">Eliseo Carreon</p>
+                </div>
+                
+                <div className="grid md:grid-cols-2 gap-8 mb-10">
                   <div className="flex items-start gap-4">
-                    <div className="bg-orange-600 p-3 rounded-lg">
-                      <span className="text-2xl">📞</span>
+                    <div className="bg-orange-600 p-4 rounded-lg flex-shrink-0">
+                      <span className="text-3xl">📞</span>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-300 mb-1">Phone</p>
-                      <a href="tel:8178415269" className="text-xl font-bold text-white hover:text-orange-400 transition-colors">
-                        (817) 841-5269
+                      <p className="font-semibold text-gray-300 mb-2 text-sm uppercase tracking-wide">Phone</p>
+                      <a href="tel:8178415269" className="text-2xl font-bold text-white hover:text-orange-400 transition-colors block">
+                        817-841-5269
                       </a>
-                      <p className="text-sm text-gray-400 mt-1">Call for immediate assistance</p>
+                      <p className="text-sm text-gray-400 mt-2">Call for immediate assistance</p>
                     </div>
                   </div>
+                  
                   <div className="flex items-start gap-4">
-                    <div className="bg-orange-600 p-3 rounded-lg">
-                      <span className="text-2xl">✉️</span>
+                    <div className="bg-orange-600 p-4 rounded-lg flex-shrink-0">
+                      <span className="text-3xl">✉️</span>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-300 mb-1">Email</p>
-                      <a href="mailto:eliseo@complex.construction" className="text-white hover:text-orange-400 transition-colors break-all">
-                        eliseo@complex.construction
+                      <p className="font-semibold text-gray-300 mb-2 text-sm uppercase tracking-wide">Email</p>
+                      <a href="mailto:EC71061@email.com" className="text-lg text-white hover:text-orange-400 transition-colors break-all block">
+                        EC71061@email.com
                       </a>
-                      <p className="text-sm text-gray-400 mt-1">We'll respond within 24 hours</p>
+                      <p className="text-sm text-gray-400 mt-2">We'll respond within 24 hours</p>
                     </div>
                   </div>
+                  
                   <div className="flex items-start gap-4">
-                    <div className="bg-orange-600 p-3 rounded-lg">
-                      <span className="text-2xl">📍</span>
+                    <div className="bg-orange-600 p-4 rounded-lg flex-shrink-0">
+                      <span className="text-3xl">📍</span>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-300 mb-1">Service Area</p>
-                      <p className="text-white">Midland, Odessa & Permian Basin</p>
-                      <p className="text-sm text-gray-400 mt-1">Serving all of West Texas</p>
+                      <p className="font-semibold text-gray-300 mb-2 text-sm uppercase tracking-wide">Address</p>
+                      <p className="text-lg text-white">706 N. Terrell</p>
+                      <p className="text-lg text-white">Midland, TX 79701</p>
                     </div>
                   </div>
+                  
                   <div className="flex items-start gap-4">
-                    <div className="bg-orange-600 p-3 rounded-lg">
-                      <span className="text-2xl">🕐</span>
+                    <div className="bg-orange-600 p-4 rounded-lg flex-shrink-0">
+                      <span className="text-3xl">🕐</span>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-300 mb-1">Business Hours</p>
+                      <p className="font-semibold text-gray-300 mb-2 text-sm uppercase tracking-wide">Business Hours</p>
                       <p className="text-white">Mon-Fri: 7:00 AM - 6:00 PM</p>
                       <p className="text-white">Sat: 8:00 AM - 2:00 PM</p>
                     </div>
                   </div>
                 </div>
-                <div className="mt-10 pt-8 border-t border-slate-700">
+                
+                <div className="border-t border-slate-700 pt-8">
                   <a
                     href="tel:8178415269"
-                    className="block w-full bg-green-600 hover:bg-green-700 text-white font-bold text-lg px-6 py-5 rounded-lg transition-all transform hover:scale-105 text-center shadow-lg"
+                    className="block w-full bg-green-600 hover:bg-green-700 text-white font-bold text-xl px-8 py-6 rounded-lg transition-all transform hover:scale-105 text-center shadow-lg"
                   >
-                    📞 Call Now: (817) 841-5269
+                    📞 Call Now: 817-841-5269
                   </a>
-                </div>
-              </div>
-
-              <div className="bg-gray-50 p-10 rounded-xl shadow-xl border border-gray-200">
-                <h3 className="text-2xl font-bold mb-6 text-gray-900">Send Us a Message</h3>
-                <form className="space-y-5">
-                  <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">Your Name *</label>
-                    <input
-                      type="text"
-                      placeholder="John Smith"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-600 focus:border-transparent"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">Email Address *</label>
-                    <input
-                      type="email"
-                      placeholder="john@example.com"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-600 focus:border-transparent"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">Phone Number *</label>
-                    <input
-                      type="tel"
-                      placeholder="(817) 555-0123"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-600 focus:border-transparent"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-semibold text-gray-700 mb-2">Project Details *</label>
-                    <textarea
-                      placeholder="Tell us about your construction project..."
-                      rows={5}
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-600 focus:border-transparent"
-                    ></textarea>
-                  </div>
-                  <button
-                    type="submit"
-                    className="w-full bg-orange-600 hover:bg-orange-700 text-white font-bold text-lg px-6 py-4 rounded-lg transition-all transform hover:scale-105 shadow-lg"
-                  >
-                    Get Free Quote
-                  </button>
-                  <p className="text-xs text-gray-500 text-center">
-                    * We respect your privacy. Your information will never be shared.
+                  <p className="text-center text-gray-400 text-sm mt-4">
+                    Free Estimates • Licensed & Insured • Serving Midland, Odessa & Permian Basin
                   </p>
-                </form>
+                </div>
               </div>
             </div>
           </div>
@@ -493,11 +455,11 @@ export default function Home() {
                     </a>
                   </p>
                   <p>
-                    <a href="mailto:eliseo@complex.construction" className="hover:text-orange-400 transition-colors break-all">
-                      ✉️ eliseo@complex.construction
+                    <a href="mailto:EC71061@email.com" className="hover:text-orange-400 transition-colors break-all">
+                      ✉️ EC71061@email.com
                     </a>
                   </p>
-                  <p>📍 Serving Midland, Odessa & West Texas</p>
+                  <p>📍 706 N. Terrell, Midland, TX 79701</p>
                   <p className="text-sm pt-2">
                     Mon-Fri: 7:00 AM - 6:00 PM<br/>
                     Sat: 8:00 AM - 2:00 PM

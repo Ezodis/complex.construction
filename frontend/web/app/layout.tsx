@@ -87,10 +87,10 @@ export default function RootLayout({
     '@id': 'https://complex.construction',
     url: 'https://complex.construction',
     telephone: '+1-817-841-5269',
-    email: 'eliseo@complex.construction',
+    email: 'EC71061@email.com',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '',
+      streetAddress: '706 N. Terrell',
       addressLocality: 'Midland',
       addressRegion: 'TX',
       postalCode: '79701',

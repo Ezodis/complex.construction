@@ -1,0 +1,20 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Complex Construction Logo -->
+  <g id="complex-construction-logo">
+    <!-- House/Building Structure -->
+    <path d="M100 30 L160 70 L160 150 L40 150 L40 70 Z" fill="#1e3a8a" stroke="#1e3a8a" stroke-width="2"/>
+    
+    <!-- Inner House Detail -->
+    <path d="M100 45 L145 75 L145 135 L55 135 L55 75 Z" fill="none" stroke="white" stroke-width="3"/>
+    
+    <!-- Door/Window Detail -->
+    <rect x="85" y="95" width="30" height="40" fill="none" stroke="white" stroke-width="3"/>
+    
+    <!-- Roof Lines -->
+    <path d="M100 30 L100 60" stroke="white" stroke-width="3"/>
+    <path d="M70 52.5 L100 30 L130 52.5" stroke="white" stroke-width="3" fill="none"/>
+    
+    <!-- Foundation Line -->
+    <path d="M35 155 Q100 165 165 155" stroke="#1e3a8a" stroke-width="4" fill="none"/>
+  </g>
+</svg>
