@@ -83,7 +83,7 @@ export default function RootLayout({
     image: 'https://complex.construction/logo.jpg',
     '@id': 'https://complex.construction',
     url: 'https://complex.construction',
-    telephone: '+1-123-456-7890',
+    telephone: '+1-817-841-5269',
     email: 'eliseo@complex.construction',
     address: {
       '@type': 'PostalAddress',
